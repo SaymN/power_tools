@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "power_tools:bornite_block"
+    }
+  },
+  "result": {
+    "item": "power_tools:bornite_stairs",
+    "count": 4
+  }
+}

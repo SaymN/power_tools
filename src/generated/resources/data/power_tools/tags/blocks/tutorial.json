@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "power_tools:bornite_block",
+    "power_tools:bornite_slab",
+    "power_tools:bornite_stairs",
+    "power_tools:bornite_ore"
+  ]
+}

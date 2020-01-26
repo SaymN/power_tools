@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "power_tools:bornite_block"
+    }
+  ],
+  "result": {
+    "item": "power_tools:bornite_ingot",
+    "count": 4
+  }
+}

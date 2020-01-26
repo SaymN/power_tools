@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "RSR",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "power_tools:bornite_ingot"
+    },
+    "S": {
+      "tag": "forge:chests"
+    }
+  },
+  "result": {
+    "item": "power_tools:bornite_chest"
+  }
+}

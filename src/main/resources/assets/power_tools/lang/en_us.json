@@ -1,0 +1,20 @@
+{
+	"itemGroup.power_tools": "Power Tools",
+		
+	"item.power_tools.bornite_ingot": "Bornite Ingot",
+	"item.power_tools.bornite_dust": "Bornite Dust",
+	"item.power_tools.bornite_nugget": "Bornite Nugget",
+	"item.power_tools.bornite_pickaxe": "Bornite Pickaxe",
+	"item.power_tools.bornite_shovel": "Bornite Shovel",
+	"item.power_tools.backpack_small": "Small Backpack",
+	"item.power_tools.backpack_medium": "Medium Backpack",
+	"item.power_tools.backpack_large": "Large Backpack",
+	
+	"block.power_tools.bornite_ore": "Bornite Ore",
+	"block.power_tools.bornite_block": "Bornite Block",
+	"block.power_tools.bornite_slab": "Bornite Slab",
+	"block.power_tools.bornite_stairs": "Bornite Stairs",
+	"block.power_tools.bornite_chest": "Bornite Chest",
+		
+	"container.power_tools.ruby_chest": "Ruby Chest Inventory"
+}

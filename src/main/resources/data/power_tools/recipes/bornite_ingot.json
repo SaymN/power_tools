@@ -1,0 +1,26 @@
+{
+    "type": "silents_mechanisms:alloy_smelting",
+    "process_time": 400,
+    "ingredients": [
+        {
+            "values": [
+                {
+                    "tag": "forge:ingots/iron"
+                }
+            ],
+            "count": 2
+        },
+        {
+            "values": [
+                {
+                    "item": "power_tools:bornite_dust"
+                }
+            ],
+            "count": 1
+        }
+    ],
+    "result": {
+        "item": "power_tools:bornite_ingot",
+        "count": 2
+    }
+}

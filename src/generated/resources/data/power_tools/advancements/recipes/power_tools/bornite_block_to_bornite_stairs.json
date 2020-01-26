@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "power_tools:bornite_block_to_bornite_stairs"
+    ]
+  },
+  "criteria": {
+    "has_bornite_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "power_tools:bornite_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "power_tools:bornite_block_to_bornite_stairs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bornite_block",
+      "has_the_recipe"
+    ]
+  ]
+}

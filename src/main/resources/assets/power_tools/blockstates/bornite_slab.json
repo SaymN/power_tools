@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "power_tools:block/bornite_slab" },
+        "type=top": { "model": "power_tools:block/bornite_slab_top" },
+        "type=double": { "model": "power_tools:block/bornite_block" }
+    }
+}

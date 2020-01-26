@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "power_tools:bornite_ore"
+  },
+  "result": "power_tools:bornite_ingot",
+  "experience": 3.0,
+  "cookingtime": 200
+}
