@@ -61,5 +61,11 @@ public class power_tools {
 
         PacketHandler.register();
 	}
+
+	public static String find(String name)
+	{
+		return power_tools.MODID + ":" + name;
+	}
+
 	
 }

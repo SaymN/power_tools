@@ -11,7 +11,6 @@ public enum ModToolList implements IItemTier
 	bornite_axe(10.0f, 10.0f, 2000, 3, 25, ModItems.bornite_ingot),
 	bornite_hoe(10.0f, 10.0f, 2000, 3, 25, ModItems.bornite_ingot),	
 	bornite_sword(10.0f, 10.0f, 2000, 3, 25, ModItems.bornite_ingot);
-
 	
 	private float attackDamage, efficency;
 	private int durability, harvestLevel, enchantability;

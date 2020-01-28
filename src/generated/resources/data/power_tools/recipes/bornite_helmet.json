@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "R R"
+  ],
+  "key": {
+    "R": {
+      "item": "power_tools:bornite_ingot"
+    }
+  },
+  "result": {
+    "item": "power_tools:bornite_helmet"
+  }
+}

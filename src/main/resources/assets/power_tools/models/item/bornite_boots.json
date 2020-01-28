@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "power_tools:item/bornite_hoe"
+        "layer0": "power_tools:item/bornite_boots"
     }
 }

@@ -32,21 +32,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magn
     side="BOTH"
 
 [[dependencies.power_tools]]
-	modId="silentlib"
-	mandatory=true
-	versionRange="[4.4,]"
-	ordering="NONE"
-	side="BOTH"
-
-    			    	    
-[[dependencies.power_tools]]
-	modId="silents_mechanisms"
-	mandatory=true
-	versionRange="[0.6.11+44,]"
-	ordering="NONE"
-	side="BOTH"
-    			    
-[[dependencies.power_tools]]
 	modId="uteamcore"
 	mandatory=true
 	versionRange="[2.8.0.140,]"

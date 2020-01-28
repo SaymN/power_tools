@@ -7,7 +7,6 @@ public class bornite_hoe extends HoeItem{
 
 	public bornite_hoe(IItemTier tier, float attackSpeedIn, Properties builder) {
 		super(tier, attackSpeedIn, builder);
-		// TODO Auto-generated constructor stub
 	}
 
 

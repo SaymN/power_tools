@@ -2,6 +2,7 @@ package ch.saymn.power_tools.init;
 
 import ch.saymn.power_tools.power_tools;
 import ch.saymn.power_tools.item.*;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -21,7 +22,7 @@ public class ModItems {
 	public static final bornite_axe bornite_axe = new bornite_axe(ModToolList.bornite_axe, -5, 0.0f, new Item.Properties().group(ModItemGroup.POWER_TOOLS));
 	public static final bornite_hoe bornite_hoe = new bornite_hoe(ModToolList.bornite_hoe, -5, new Item.Properties().group(ModItemGroup.POWER_TOOLS));
 	public static final bornite_sword bornite_sword = new bornite_sword(ModToolList.bornite_sword, -5, 0.0f, new Item.Properties().group(ModItemGroup.POWER_TOOLS));
-	
+
 	@SubscribeEvent
 	public static void register(Register<Item> event) {
 		final IForgeRegistry<Item> registry = event.getRegistry();
@@ -34,6 +35,15 @@ public class ModItems {
 		registry.register(bornite_axe.setRegistryName(power_tools.MODID, "bornite_axe"));
 		registry.register(bornite_hoe.setRegistryName(power_tools.MODID, "bornite_hoe"));
 		registry.register(bornite_sword.setRegistryName(power_tools.MODID, "bornite_sword"));
+		
+		EquipmentSlotType[] slotTypes = new EquipmentSlotType[]{EquipmentSlotType.HEAD, EquipmentSlotType.CHEST, EquipmentSlotType.LEGS, EquipmentSlotType.FEET};
+        String[] names = new String[]{"helmet", "chestplate", "leggings", "boots"};
+
+        for (ArmorTypes type : ArmorTypes.values()) {
+            for (int i = 0; i < slotTypes.length; i++) {
+                event.getRegistry().register(new Armor(type, slotTypes[i], names[i]));
+            }
+        }
 	}
 
 }

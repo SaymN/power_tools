@@ -6,6 +6,7 @@ import ch.saymn.power_tools.power_tools;
 import ch.saymn.power_tools.core.BorniteChestBlocks;
 import ch.saymn.power_tools.init.ModBlocks;
 import ch.saymn.power_tools.init.ModItems;
+import ch.saymn.power_tools.item.ArmorItems;
 import net.minecraft.data.CookingRecipeBuilder;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.IFinishedRecipe;
@@ -27,6 +28,36 @@ public class ModRecipeProvider extends RecipeProvider {
 		CookingRecipeBuilder.smeltingRecipe(Ingredient.fromItems(ModBlocks.bornite_ore), ModItems.bornite_ingot, 3, 200)
 			.addCriterion("has_bornite_ore", hasItem(ModBlocks.bornite_ore))
 			.build(consumer, new ResourceLocation(power_tools.MODID, "bornite_ore_to_bornite_ingot"));
+		
+		ShapedRecipeBuilder.shapedRecipe(ArmorItems.BORNITE_BOOTS, 1)
+			.patternLine("R R")
+			.patternLine("R R")
+			.key('R', ModItems.bornite_ingot)
+			.addCriterion("has_bornite_ingot", hasItem(ModItems.bornite_ingot))
+			.build(consumer, new ResourceLocation(power_tools.MODID, "bornite_boots"));
+		
+		ShapedRecipeBuilder.shapedRecipe(ArmorItems.BORNITE_CHESTPLATE, 1)
+			.patternLine("R R")
+			.patternLine("RRR")
+			.patternLine("RRR")
+			.key('R', ModItems.bornite_ingot)
+			.addCriterion("has_bornite_ingot", hasItem(ModItems.bornite_ingot))
+			.build(consumer, new ResourceLocation(power_tools.MODID, "bornite_chestplate"));
+		
+		ShapedRecipeBuilder.shapedRecipe(ArmorItems.BORNITE_HELMET, 1)
+			.patternLine("RRR")
+			.patternLine("R R")
+			.key('R', ModItems.bornite_ingot)
+			.addCriterion("has_bornite_ingot", hasItem(ModItems.bornite_ingot))
+			.build(consumer, new ResourceLocation(power_tools.MODID, "bornite_helmet"));
+		
+		ShapedRecipeBuilder.shapedRecipe(ArmorItems.BORNITE_LEGGINGS, 1)
+			.patternLine("RRR")
+			.patternLine("R R")
+			.patternLine("R R")
+			.key('R', ModItems.bornite_ingot)
+			.addCriterion("has_bornite_ingot", hasItem(ModItems.bornite_ingot))
+			.build(consumer, new ResourceLocation(power_tools.MODID, "bornite_leggings"));
 		
 		ShapedRecipeBuilder.shapedRecipe(ModItems.bornite_pickaxe, 1)
 			.patternLine("RRR")
